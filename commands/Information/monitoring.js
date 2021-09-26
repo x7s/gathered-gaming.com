@@ -19,7 +19,7 @@ module.exports = {
             if (serverip && port) {
                 message.channel.send(`🔍 Търсене... информация за ${serverip}:${port}`)
             }
-            if (!args.length) return message.channel.send(`Не ми предоставихте **IP** и/или **Port** за търсене, ${message.author}!\nОпитайте с **!fps-mon 212.233.155.6 27015**.`)
+            if (!args.length) return message.channel.send(`Не ми предоставихте **IP** и/или **Port** за търсене, ${message.author}!\nОпитайте с **!mon 185.148.145.232:27016**.`)
             if (!args[0]) return message.channel.send('Моля, въведете валидно **IP** за сървър')
             if (!args[1]) return message.channel.send('Моля, въведете валиден **Port** за сървър')
             const url = ('https://www.fps.gathered-gaming.com/api.php?ip=' + `${args[0]}` + '&port=' + `${args[1]}`)
