@@ -1,11 +1,14 @@
 {
-  "name": "tutorial_bot_v13",
+  "name": "tutorial",
   "version": "1.0.0",
-  "description": "A Discord Tutorial Bot built with latest Discord API Features",
+  "description": "A Discord Music Bot built with latest Discord Voice Features",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "github.com/x7s/gathered-gaming.com
+    "url": "github.com/x7s/gathered-gaming.com"
   },
   "keywords": [
     "Tutorial",
@@ -16,7 +19,7 @@
     "js",
     "nodejs"
   ],
-  "author": "KpuTuk",
+  "author": "Tomato6966",
   "license": "MIT",
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
