@@ -19,7 +19,7 @@
     "js",
     "nodejs"
   ],
-  "author": "Tomato6966",
+  "author": "KpuTuk",
   "license": "MIT",
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
